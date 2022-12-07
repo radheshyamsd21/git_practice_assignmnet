@@ -4,18 +4,17 @@ Problem 1 : Check whether a number is Prime or not.
 
 let num = 17;
 
-let i=2;
 
 let count=0;
 
-for (let i=2; i<=num; i++){
+for (let i=1; i<=num; i++){
 
-if(i%num)
+if(num % i ==0)
 
 count++
 }
 
-if(factor==1){
+if(count==2){
  console.log("It is a prime")
 }
 else{
